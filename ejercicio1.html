@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Box Model</title>
+	<style>
+		html {
+			box-sizing: border-box;
+		}
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
+		body {
+			margin: 60px 0 0 0;
+			padding: 0;
+		}
+		.box {
+			padding: 5px;
+		}
+		.caja {
+			width: 25%;
+			padding: 5px;
+			float: left;
+			box-sizing: border-box;
+			border: 5px solid #fff;
+		}
+		nav {
+			width: 100%;
+			position:fixed;
+			background: pink;
+			height: 60px; 
+			top:0;
+		}
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>Inicio</li>
+			<li>Inicio</li>
+			<li>Inicio</li>
+			<li>Inicio</li>
+		</ul>
+	</nav>
+
+	<div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, delectus harum! Vitae commodi harum ipsa saepe ex, repudiandae cum deleniti officiis suscipit tenetur repellat similique alias officia, cumque enim quaerat.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem voluptatem cum sed, ducimus, corporis expedita eaque nisi, sapiente aspernatur quis odio fugiat esse voluptatibus maiores. Quos, eligendi optio accusamus!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae libero ipsa perspiciatis quaerat corporis recusandae, reiciendis quod ducimus. Necessitatibus quam, recusandae dolor, illo nisi sapiente dicta facere minima excepturi animi?
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ut ipsa quo qui cupiditate aperiam dignissimos, neque, inventore, adipisci illum quod. Incidunt quas doloremque voluptates corporis maiores quisquam laboriosam dolor.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusantium neque temporibus in at molestiae beatae ullam dignissimos earum doloremque est, animi pariatur ab nisi sapiente natus cupiditate, adipisci dolorum.
+	</div>
+	<div class="caja"><img src="images/logo_desafio_latam.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quidem itaque alias, sint accusamus quo doloremque ex mollitia amet nulla, nemo earum autem porro iste illo iure aliquid atque dolorum.</div>
+	<div class="caja"><img src="images/logo_desafio_latam.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quidem itaque alias, sint accusamus quo doloremque ex mollitia amet nulla, nemo earum autem porro iste illo iure aliquid atque dolorum.</div>
+	<div class="caja"><img src="images/logo_desafio_latam.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quidem itaque alias, sint accusamus quo doloremque ex mollitia amet nulla, nemo earum autem porro iste illo iure aliquid atque dolorum.</div>
+	<div class="caja"><img src="images/logo_desafio_latam.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quidem itaque alias, sint accusamus quo doloremque ex mollitia amet nulla, nemo earum autem porro iste illo iure aliquid atque dolorum.</div>
+</body>
+</html>
